@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "a a",
+    "aaa",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "k7a2rework:k_7_a_2_super_ingot"
+    }
+  },
+  "result": {
+    "item": "k7a2rework:k_7_a_2_armor_armor_chestplate",
+    "count": 1
+  }
+}

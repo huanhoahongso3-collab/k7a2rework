@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "k7a2rework",
+  "version": "1.0.0",
+  "name": "k7a2rework",
+  "description": "A reworked version of K7A2 original mod.",
+  "authors": [
+    "masterlegendpvp aka DHP"
+  ],
+  "contact": {
+    "homepage": "https://phucdh0110.localplayer.dev",
+    "sources": ""
+  },
+  "license": "GNU General Public License version 2 (GPLv2)",
+  "accessWidener": "k7a2rework.accesswidener",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dhp.mc.k7a2rework.K7a2reworkMod"
+    ],
+    "client": [
+      "dhp.mc.k7a2rework.ClientInit"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "fabric": "*",
+    "minecraft": "~1.20",
+    "java": ">=17"
+  },
+  "mixins": [
+    "k7a2rework.mixins.json"
+  ]
+}

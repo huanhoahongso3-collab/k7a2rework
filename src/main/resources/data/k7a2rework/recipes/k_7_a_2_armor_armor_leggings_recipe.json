@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "k7a2rework:k_7_a_2_super_ingot"
+    }
+  },
+  "result": {
+    "item": "k7a2rework:k_7_a_2_armor_armor_leggings",
+    "count": 1
+  }
+}

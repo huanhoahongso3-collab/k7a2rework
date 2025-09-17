@@ -1,0 +1,1295 @@
+{
+  "mod_elements": [
+    {
+      "name": "K7A2Ingot",
+      "type": "item",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_ingot",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2IngotItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_ingot.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2IngotRecipe",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k7a2_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Block",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_block",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/block/K7A2BlockBlock.java",
+          "src/main/resources/assets/k7a2rework/models/block/k_7_a_2_block.json",
+          "src/main/resources/assets/k7a2rework/blockstates/k_7_a_2_block.json",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_block.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2BlockRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k7a2_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2SuperIngot",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_super_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_super_ingot.json",
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2SuperIngotItem.java"
+        ]
+      }
+    },
+    {
+      "name": "K7A2SuperIngotRecipe",
+      "type": "recipe",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_super_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k7a2_super_ingot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2SpammableSword",
+      "type": "tool",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_spammable_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2SpammableSwordItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_spammable_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2SpammableSwordRecipe",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_spammable_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k7a2_spammable_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Shield",
+      "type": "tool",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_shield",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2ShieldItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_shield_0.json",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_shield.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ShieldRecipe",
+      "type": "recipe",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_shield_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k7a2_shield_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ArmorArmor",
+      "type": "armor",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_armor_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_armor_armor_helmet.json",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_armor_armor_boots.json",
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2ArmorArmorItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_armor_armor_leggings.json",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_armor_armor_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ArmorArmorHelmetRecipe",
+      "type": "recipe",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_armor_armor_helmet_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ArmorArmorChestplateRecipe",
+      "type": "recipe",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_armor_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_armor_armor_chestplate_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ArmorArmorLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_armor_armor_leggings_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ArmorArmorBootsRecipe",
+      "type": "recipe",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_armor_armor_boots_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2BowRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_bow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k7a2_bow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Bow",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "k_7_a_2_bow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_bow.json",
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2BowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Projectile",
+      "type": "projectile",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/entity/K7A2ProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "K7A2PotionEffectEffectStartedapplied",
+      "type": "procedure",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_potion_effect_effect_startedapplied",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/K7A2PotionEffectEffectStartedappliedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "K7A2ProjectileItem",
+      "type": "item",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_projectile_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_projectile_item.json",
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2ProjectileItemItem.java"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ProjectileRecipe",
+      "type": "recipe",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_projectile_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k7a2_projectile_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "K7A2Pickaxe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_pickaxe.json",
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2PickaxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Axe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_axe.json",
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2AxeItem.java"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Shovel",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2ShovelItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_shovel.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Hoe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2HoeItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_hoe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Sword",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2SwordItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_sword.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2PickaxeRecipe",
+      "type": "recipe",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_pickaxe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2AxeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_axe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ShovelRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_shovel_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2HoeRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_hoe_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2SwordRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_sword_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "EnchantedGoldenApple",
+      "type": "recipe",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchanted_golden_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/recipes/enchanted_golden_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Apple",
+      "type": "item",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2AppleItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/K7A2ApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "K7A2EnchantedApplePlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_enchanted_apple_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/K7A2EnchantedApplePlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "K7A2EnchantedApple",
+      "type": "item",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_enchanted_apple",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2EnchantedAppleItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_enchanted_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2CarrotPlayerFinishesUsingItem",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_carrot_player_finishes_using_item",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/K7A2CarrotPlayerFinishesUsingItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "K7A2Carrot",
+      "type": "item",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_carrot",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/K7A2CarrotItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_carrot.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2CarrotRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_carrot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_carrot_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2AppleRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2EnchantedAppleRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_enchanted_apple_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_enchanted_apple_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "WelcomeToK7A2",
+      "type": "achievement",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "welcome_to_k_7_a_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/welcome_to_k_7_a_2.json"
+        ]
+      }
+    },
+    {
+      "name": "Beautiful",
+      "type": "achievement",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beautiful",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/beautiful.json"
+        ]
+      }
+    },
+    {
+      "name": "CoverMeInK7A2",
+      "type": "achievement",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cover_me_in_k_7_a_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/cover_me_in_k_7_a_2.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkApple",
+      "type": "achievement",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/pink_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "PinkEnchantedApple",
+      "type": "achievement",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_enchanted_apple",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/pink_enchanted_apple.json"
+        ]
+      }
+    },
+    {
+      "name": "IsntItK7A2Pickaxe",
+      "type": "achievement",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "isnt_it_k_7_a_2_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/isnt_it_k_7_a_2_pickaxe.json"
+        ]
+      }
+    },
+    {
+      "name": "Spammable",
+      "type": "achievement",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "spammable",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/spammable.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2BowAdvance",
+      "type": "achievement",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_bow_advance",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/k_7_a_2_bow_advance.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ClassChest",
+      "type": "loottable",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_class_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/loot_tables/chests/k_7_a_2_class_chest.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2ClassRubbish",
+      "type": "loottable",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_class_rubbish",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/loot_tables/chests/k_7_a_2_class_rubbish.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2BowRangedItemUsed",
+      "type": "procedure",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_bow_ranged_item_used",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/K7A2BowRangedItemUsedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dinh",
+      "type": "livingentity",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dinh",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/client/renderer/DinhRenderer.java",
+          "src/main/resources/assets/k7a2rework/models/item/dinh_spawn_egg.json",
+          "src/main/java/dhp/mc/k7a2rework/entity/DinhEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Flower",
+      "type": "plant",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_flower",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2rework/models/block/k_7_a_2_flower.json",
+          "src/main/resources/assets/k7a2rework/blockstates/k_7_a_2_flower.json",
+          "src/main/java/dhp/mc/k7a2rework/block/K7A2FlowerBlock.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_flower.json"
+        ]
+      }
+    },
+    {
+      "name": "WishForYourLucky",
+      "type": "achievement",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wish_for_your_lucky",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/wish_for_your_lucky.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2RainbowBlock",
+      "type": "block",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_rainbow_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2rework/blockstates/k_7_a_2_rainbow_block.json",
+          "src/main/resources/assets/k7a2rework/models/block/k_7_a_2_rainbow_block.json",
+          "src/main/java/dhp/mc/k7a2rework/block/K7A2RainbowBlockBlock.java",
+          "src/main/resources/assets/k7a2rework/models/item/k_7_a_2_rainbow_block.json"
+        ]
+      }
+    },
+    {
+      "name": "HowRainbowIsIt",
+      "type": "achievement",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "how_rainbow_is_it",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/advancements/how_rainbow_is_it.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2RainbowBlockRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_rainbow_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/k_7_a_2_rainbow_block_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "TNTArrow",
+      "type": "item",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_arrow",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/k7a2rework/models/item/tnt_arrow.json",
+          "src/main/java/dhp/mc/k7a2rework/item/TNTArrowItem.java"
+        ]
+      }
+    },
+    {
+      "name": "TNTBowProjectileProjectileHitsBlock",
+      "type": "procedure",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_bow_projectile_projectile_hits_block",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/TNTBowProjectileProjectileHitsBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TNTBowProjectileProjectileHitsLivingEntity",
+      "type": "procedure",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_bow_projectile_projectile_hits_living_entity",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/TNTBowProjectileProjectileHitsLivingEntityProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TNTBowProjectile",
+      "type": "projectile",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_bow_projectile",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/entity/TNTBowProjectileEntity.java"
+        ]
+      }
+    },
+    {
+      "name": "TNTBow",
+      "type": "item",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_bow",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/item/TNTBowItem.java",
+          "src/main/resources/assets/k7a2rework/models/item/tnt_bow.json"
+        ]
+      }
+    },
+    {
+      "name": "AetherBiome",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aether_biome",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/worldgen/configured_feature/aether_biome_tree.json",
+          "src/main/resources/data/k7a2rework/worldgen/placed_feature/aether_biome_tree.json",
+          "src/main/resources/data/k7a2rework/worldgen/biome/aether_biome.json"
+        ]
+      }
+    },
+    {
+      "name": "Phan",
+      "type": "livingentity",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "phan",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/entity/PhanEntity.java",
+          "src/main/resources/assets/k7a2rework/models/item/phan_spawn_egg.json",
+          "src/main/java/dhp/mc/k7a2rework/client/renderer/PhanRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TNTArrowRecipe",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt_arrow_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/recipes/tnt_arrow_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "K7A2Class",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "k_7_a_2_class",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/k7a2rework/worldgen/structure/k_7_a_2_class.json",
+          "src/main/resources/data/k7a2rework/worldgen/structure_set/k_7_a_2_class.json",
+          "src/main/resources/data/k7a2rework/worldgen/template_pool/k_7_a_2_class.json"
+        ]
+      }
+    },
+    {
+      "name": "THLGUI",
+      "type": "gui",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thlgui",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/world/inventory/THLGUIMenu.java",
+          "src/main/java/dhp/mc/k7a2rework/network/THLGUIButtonMessage.java",
+          "src/main/java/dhp/mc/k7a2rework/client/gui/THLGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "EnchantSword",
+      "type": "procedure",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/EnchantSwordProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EnchantArmor",
+      "type": "procedure",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "enchant_armor",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/EnchantArmorProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TPLGUI",
+      "type": "gui",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tplgui",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/network/TPLGUIButtonMessage.java",
+          "src/main/java/dhp/mc/k7a2rework/world/inventory/TPLGUIMenu.java",
+          "src/main/java/dhp/mc/k7a2rework/client/gui/TPLGUIScreen.java"
+        ]
+      }
+    },
+    {
+      "name": "THLEntityDies",
+      "type": "procedure",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "thl_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/THLEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "THL",
+      "type": "livingentity",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "thl",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/entity/THLEntity.java",
+          "src/main/resources/assets/k7a2rework/models/item/thl_spawn_egg.json",
+          "src/main/java/dhp/mc/k7a2rework/client/renderer/THLRenderer.java"
+        ]
+      }
+    },
+    {
+      "name": "TPLEntityDies",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tpl_entity_dies",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/procedures/TPLEntityDiesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "TPL",
+      "type": "livingentity",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "tpl",
+      "metadata": {
+        "files": [
+          "src/main/java/dhp/mc/k7a2rework/entity/TPLEntity.java",
+          "src/main/java/dhp/mc/k7a2rework/client/renderer/TPLRenderer.java",
+          "src/main/resources/assets/k7a2rework/models/item/tpl_spawn_egg.json"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.k7a2rework.k_7_a_2_shovel": "K7A2 Shovel",
+      "item.k7a2rework.k_7_a_2_armor_armor_chestplate": "K7A2 Chestplate",
+      "item.k7a2rework.k_7_a_2_pickaxe": "K7A2 Pickaxe",
+      "item.k7a2rework.k_7_a_2_bow": "K7A2 Bow",
+      "advancements.wish_for_your_lucky.descr": "Well...... Good Luck",
+      "advancements.pink_enchanted_apple.title": "Pink Enchanted Apple",
+      "item.k7a2rework.k_7_a_2_armor_armor_leggings": "K7A2Leggings",
+      "item.k7a2rework.k_7_a_2_spammable_sword": "K7A2 Spammable Sword",
+      "gui.k7a2rework.thlgui.label_empty1": "+",
+      "block.k7a2rework.k_7_a_2_block": "K7A2 Block",
+      "item.k7a2rework.k_7_a_2_hoe": "K7A2 Hoe",
+      "item.k7a2rework.k_7_a_2_carrot": "K7A2 Carrot",
+      "advancements.isnt_it_k_7_a_2_pickaxe.title": "Isn\u0027t it K7A2 Pickaxe",
+      "advancements.how_rainbow_is_it.title": "How Rainbow Is It?",
+      "item.k7a2rework.k_7_a_2_sword": "K7A2 Sword",
+      "gui.k7a2rework.thlgui.label_enchanter_full_protection_armo": "Enchanter - Full Protection",
+      "advancements.cover_me_in_k_7_a_2.title": "Cover Me In K 7 A 2",
+      "advancements.k_7_a_2_bow_advance.title": "K7A2 Bow",
+      "item.k7a2rework.k_7_a_2_armor_armor_helmet": "K7A2 Helmet",
+      "biome.k7a2rework.aether_biome": "Aether Biome",
+      "item_group.k7a2rework.k_7_a_2": "K7A2",
+      "block.k7a2rework.k_7_a_2_rainbow_block": "K7A2 Rainbow Block",
+      "item.k7a2rework.phan_spawn_egg": "Phan Spawn Egg",
+      "advancements.pink_apple.descr": "Wow, a pink Apple. What will it do?",
+      "gui.k7a2rework.thlgui.label_empty": "\u003d",
+      "block.k7a2rework.k_7_a_2_flower": "K7A2 Flower",
+      "entity.k7a2rework.dinh": "Dinh",
+      "gui.k7a2rework.tplgui.label_enchanter_full_protection_armo": "Enchanter - Full Sharpness",
+      "item.k7a2rework.k_7_a_2_apple": "K7A2 Apple",
+      "advancements.welcome_to_k_7_a_2.descr": "Well....Welcome to the world",
+      "item.k7a2rework.k_7_a_2_ingot": "K7A2 Ingot",
+      "gui.k7a2rework.thlgui.label_diamond_block": "Diamond Block",
+      "entity.k7a2rework.tpl": "TPL",
+      "item.k7a2rework.k_7_a_2_super_ingot": "K7A2 Super Ingot",
+      "item.k7a2rework.k_7_a_2_axe": "K7A2 Axe",
+      "item.k7a2rework.tnt_bow": "TNT Bow",
+      "gui.k7a2rework.tplgui.label_diamond_block": "Emerald Block",
+      "item.k7a2rework.dinh_spawn_egg": "Dinh Spawn Egg",
+      "gui.k7a2rework.tplgui.label_armor": "Item",
+      "item.k7a2rework.tpl_spawn_egg": "TPL Spawn Egg",
+      "item.k7a2rework.k_7_a_2_armor_armor_boots": "K7A2 Boots",
+      "item.k7a2rework.k_7_a_2_enchanted_apple": "K7A2 Enchanted Apple",
+      "advancements.spammable.descr": "1.8, bring me back",
+      "entity.k7a2rework.phan": "Phan",
+      "entity.k7a2rework.thl": "THL",
+      "advancements.beautiful.title": "Beautiful",
+      "item.k7a2rework.k_7_a_2_projectile_item": "K7A2 Projectile Item",
+      "advancements.beautiful.descr": "Equip a Super K7A2 Ingot",
+      "advancements.how_rainbow_is_it.descr": "Get a rainbow block",
+      "advancements.spammable.title": "Spammable",
+      "gui.k7a2rework.tplgui.button_enchant": "Enchant",
+      "advancements.pink_apple.title": "K7A2 Apple",
+      "gui.k7a2rework.tplgui.label_empty1": "+",
+      "advancements.isnt_it_k_7_a_2_pickaxe.descr": "Get a K7A2 Pickaxe",
+      "advancements.pink_enchanted_apple.descr": "What a super beautiful one, it looks like Super K7A2 Ingot. Wait, this thing isn\u0027t made from that",
+      "advancements.k_7_a_2_bow_advance.descr": "OMG how OP it is? Just get an arrow and look.",
+      "gui.k7a2rework.tplgui.label_empty": "\u003d",
+      "gui.k7a2rework.thlgui.label_armor": "Item",
+      "advancements.welcome_to_k_7_a_2.title": "Welcome To K 7 A 2",
+      "advancements.wish_for_your_lucky.title": "Wish For Your Lucky",
+      "item.k7a2rework.thl_spawn_egg": "THL Spawn Egg",
+      "item.k7a2rework.k_7_a_2_shield": "K7A2 Shield",
+      "item.k7a2rework.tnt_arrow": "TNT Arrow",
+      "gui.k7a2rework.thlgui.button_enchant": "Enchant",
+      "advancements.cover_me_in_k_7_a_2.descr": "All of your body is covered in ours.... You need to wear our chestplate in order to get this advancement"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "k7a2rework",
+    "modName": "k7a2rework",
+    "version": "1.0.0",
+    "description": "A reworked version of K7A2 original mod.",
+    "author": "masterlegendpvp aka DHP",
+    "websiteURL": "https://phucdh0110.localplayer.dev",
+    "license": "GNU General Public License version 2 (GPLv2)",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "updateURL": "https://phucdh0110.localplayer.dev/k7a2rework.json",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "fabric-1.20.1",
+    "credits": "Made on MCreator. Thanks!",
+    "modElementsPackage": "dhp.mc.k7a2rework",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300452316
+}

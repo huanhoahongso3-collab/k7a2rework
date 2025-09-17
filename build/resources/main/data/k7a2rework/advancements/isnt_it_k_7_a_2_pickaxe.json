@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "k7a2rework:k_7_a_2_pickaxe"
+    },
+    "title": "Isn't it K7A2 Pickaxe",
+    "description": "Get a K7A2 Pickaxe",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "isnt_it_k_7_a_2_pickaxe": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2rework:k_7_a_2_pickaxe"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 75
+  },
+  "parent": "k7a2rework:beautiful"
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "k7a2rework:k_7_a_2_super_ingot"
+    },
+    "title": "Beautiful",
+    "description": "Equip a Super K7A2 Ingot",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "beautiful": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2rework:k_7_a_2_super_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 200
+  },
+  "parent": "k7a2rework:welcome_to_k_7_a_2"
+}

@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dhp.mc.k7a2rework.mixins",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+      "K7a2reworkModRepairItemRecipeMixin",
+      "NoiseGeneratorSettingsAccess"  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

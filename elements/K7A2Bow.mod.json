@@ -1,0 +1,56 @@
+{
+  "_fv": 57,
+  "_type": "item",
+  "definition": {
+    "renderType": 0,
+    "texture": "jnpehy29o-5ghtyjxutbfaxcmxnomq4w0di1v0yxogqmz2vv0efazajbhki6audl5wkvm2mabqmamgbp9diivlqrw-h400",
+    "customModelName": "Ranged item",
+    "customProperties": {},
+    "states": [],
+    "name": "K7A2 Bow",
+    "rarity": "RARE",
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "stackSize": 64,
+    "enchantability": 47,
+    "useDuration": 72000,
+    "toolType": 1.0,
+    "damageCount": 5610,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": true,
+    "damageVsEntity": 5.0,
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 64,
+    "enableRanged": true,
+    "shootConstantly": true,
+    "projectile": {
+      "value": "CUSTOM:K7A2Projectile"
+    },
+    "onRangedItemUsed": {
+      "name": "K7A2BowRangedItemUsed"
+    },
+    "isFood": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "animation": "bow"
+  }
+}

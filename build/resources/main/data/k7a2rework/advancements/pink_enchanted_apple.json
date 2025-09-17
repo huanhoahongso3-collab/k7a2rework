@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "k7a2rework:k_7_a_2_enchanted_apple"
+    },
+    "title": "Pink Enchanted Apple",
+    "description": "What a super beautiful one, it looks like Super K7A2 Ingot. Wait, this thing isn't made from that",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pink_enchanted_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2rework:k_7_a_2_enchanted_apple"
+            ],
+            "count": {
+              "min": 1,
+              "max": 100000000000000000000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 5000
+  },
+  "parent": "k7a2rework:pink_apple"
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "background": "k7a2rework:textures/screens/pic1.png",
+    "icon": {
+      "item": "k7a2rework:k_7_a_2_ingot"
+    },
+    "title": "Welcome To K 7 A 2",
+    "description": "Well....Welcome to the world",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "welcome_to_k_7_a_2": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2rework:k_7_a_2_ingot"
+            ],
+            "count": {
+              "min": 1,
+              "max": 999999999
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

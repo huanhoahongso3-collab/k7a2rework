@@ -1,0 +1,8 @@
+{
+  "parent": "block/cross",
+  "textures": {
+    "cross": "k7a2rework:block/k7a2flower",
+    "particle": "k7a2rework:block/k7a2flower"
+  },
+  "render_type": "cutout"
+}

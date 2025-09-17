@@ -1,0 +1,28 @@
+{
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2025-07-26 21:13:12 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_by_something": "2025-07-26 21:13:59 +0700"
+    },
+    "done": true
+  },
+  "k7a2rework:k_7_a_2_bow_advance": {
+    "criteria": {
+      "k_7_a_2_bow_advance": "2025-07-26 21:13:11 +0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:beach": "2025-07-26 21:13:20 +0700",
+      "minecraft:plains": "2025-07-26 21:13:41 +0700"
+    },
+    "done": false
+  },
+  "DataVersion": 3465
+}

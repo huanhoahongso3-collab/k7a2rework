@@ -1,0 +1,48 @@
+{
+  "_fv": 57,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "EQUIPMENT",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:K7A2SuperIngot"
+      },
+      {
+        "value": "CUSTOM:K7A2SuperIngot"
+      },
+      {
+        "value": "CUSTOM:K7A2SuperIngot"
+      },
+      {
+        "value": "CUSTOM:K7A2SuperIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:K7A2SuperIngot"
+      },
+      {
+        "value": "CUSTOM:K7A2SuperIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:K7A2SuperIngot"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:K7A2ArmorArmor.legs"
+    },
+    "name": "k_7_a_2_armor_armor_leggings_recipe",
+    "namespace": "mod"
+  }
+}

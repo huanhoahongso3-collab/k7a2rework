@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "k7a2rework:k_7_a_2_class",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 148,
+    "separation": 147,
+    "salt": 1826418213
+  }
+}

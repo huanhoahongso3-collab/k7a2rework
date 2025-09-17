@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "k7a2rework:k_7_a_2_apple"
+    },
+    "title": "K7A2 Apple",
+    "description": "Wow, a pink Apple. What will it do?",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "pink_apple": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2rework:k_7_a_2_apple"
+            ],
+            "count": {
+              "min": 1,
+              "max": 1e+24
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 250
+  },
+  "parent": "k7a2rework:welcome_to_k_7_a_2"
+}

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "k7a2rework:block/rainbow2",
+    "up": "k7a2rework:block/rainbow2",
+    "north": "k7a2rework:block/rainbow2",
+    "east": "k7a2rework:block/rainbow2",
+    "south": "k7a2rework:block/rainbow2",
+    "west": "k7a2rework:block/rainbow2",
+    "particle": "k7a2rework:block/rainbow2"
+  },
+  "render_type": "solid"
+}

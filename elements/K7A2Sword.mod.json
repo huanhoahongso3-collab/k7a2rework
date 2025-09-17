@@ -1,0 +1,37 @@
+{
+  "_fv": 57,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Sword",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "k7a2sword",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "K7A2 Sword",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTab": {
+      "value": "CUSTOM:K7A2"
+    },
+    "harvestLevel": 7,
+    "efficiency": 56201.0,
+    "attackSpeed": 1.75,
+    "enchantability": 25,
+    "damageVsEntity": 10.5,
+    "usageCount": 5610,
+    "blocksAffected": [],
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:K7A2SuperIngot"
+      }
+    ],
+    "immuneToFire": true,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

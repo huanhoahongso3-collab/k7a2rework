@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "k7a2rework:item/golden_apple_old"
+  }
+}

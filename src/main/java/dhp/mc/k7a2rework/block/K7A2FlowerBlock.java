@@ -1,0 +1,46 @@
+
+package dhp.mc.k7a2rework.block;
+
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.block.state.BlockBehaviour;
+import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.FlowerBlock;
+import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.effect.MobEffects;
+import net.minecraft.client.renderer.RenderType;
+
+import net.fabricmc.fabric.api.registry.FlammableBlockRegistry;
+import net.fabricmc.fabric.api.blockrenderlayer.v1.BlockRenderLayerMap;
+import net.fabricmc.api.Environment;
+import net.fabricmc.api.EnvType;
+
+import java.util.List;
+import java.util.Collections;
+
+import dhp.mc.k7a2rework.init.K7a2reworkModBlocks;
+
+public class K7A2FlowerBlock extends FlowerBlock {
+	public K7A2FlowerBlock() {
+		super(MobEffects.HEALTH_BOOST, 2500, BlockBehaviour.Properties.of().sound(SoundType.GRASS).instabreak().noCollission());
+		FlammableBlockRegistry.getDefaultInstance().add(this, 100, 60);
+	}
+
+	@Override
+	public int getEffectDuration() {
+		return 2500;
+	}
+
+	@Override
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
+		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
+		if (!dropsOriginal.isEmpty())
+			return dropsOriginal;
+		return Collections.singletonList(new ItemStack(this, 1));
+	}
+
+	@Environment(EnvType.CLIENT)
+	public static void clientInit() {
+		BlockRenderLayerMap.INSTANCE.putBlock(K7a2reworkModBlocks.K_7_A_2_FLOWER, RenderType.cutoutMipped());
+	}
+}

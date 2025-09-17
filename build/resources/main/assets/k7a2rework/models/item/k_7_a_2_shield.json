@@ -1,0 +1,14 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "k7a2rework:item/k7a2shield3"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "blocking": 1
+      },
+      "model": "k7a2rework:item/k_7_a_2_shield_0"
+    }
+  ]
+}

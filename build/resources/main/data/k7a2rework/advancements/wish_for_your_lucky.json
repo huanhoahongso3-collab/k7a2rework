@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "k7a2rework:k_7_a_2_flower"
+    },
+    "title": "Wish For Your Lucky",
+    "description": "Well...... Good Luck",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "wish_for_your_lucky": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "k7a2rework:k_7_a_2_flower"
+            ],
+            "count": {
+              "min": 1,
+              "max": 100000000000000000000
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 750
+  },
+  "parent": "k7a2rework:welcome_to_k_7_a_2"
+}
